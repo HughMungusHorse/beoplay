@@ -1,4 +1,5 @@
-@font-face font-family: Montserrat-Regular
+@font-face
+  font-family: Montserrat-Regular
   src: url(fonts/Montserrat-Regular.otf)
 
 
@@ -114,7 +115,6 @@ main
   list-style-type: none
   text-align: center
   background-color: #292929
-  margin: 0 
 
 .navtop
   a
@@ -253,4 +253,4 @@ footer
 
 #modal-box img
   margin-right: 100%
-  display: flex;
+  display: flex
