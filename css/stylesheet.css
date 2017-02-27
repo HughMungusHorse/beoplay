@@ -1,0 +1,312 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(fonts/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(fonts/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: Montserrat-UltraLight;
+    src: url(fonts/Montserrat-UltraLight.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url(fonts/Montserrat-Thin.otf);
+}
+
+body {
+    height: 100%;
+}
+
+ .logo{
+    position: absolute;
+ }
+
+.nav1 {
+    list-style-type: none; 
+    text-align: center; 
+}
+.nav1 a {
+    font-family: Montserrat-Light;
+    font-size: 23px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav1 li {
+    display:inline-block;
+    position: relative;  
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    }
+
+.nav1 li a {
+
+}
+
+hr {
+margin: 0 28%;
+padding: 0;
+width: 45%;
+align-content: center;
+}
+.nav2 {
+    list-style-type: none; 
+    text-align: center;
+}
+
+.nav2 a {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav2 li {
+   display:inline-block;
+    position: relative;  
+    padding: 11px; 
+}
+
+.button {
+	background-color: #3f3f3f;
+    border-radius: 11px;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+}
+
+
+main {
+    background-color: #f1f1f1;
+    height: 650px;
+ width: 100%;
+}
+
+.billede {
+padding-left: 23%;
+}
+
+main h1 {
+font-family: Montserrat-Thin;
+font-size: 35px;
+padding-left: 5%;
+padding-right: 25%;
+display: inline-block;
+position: absolute;
+color: #9c9c9c;
+}
+
+main p {
+font-family: Montserrat-Thin;
+font-size: 25px;
+padding-right: 25%;
+text-align: left;   
+padding-left: 5%;
+display: inline-block;
+position: absolute;
+padding-top: 5%;
+color: #acacac;
+}
+
+main .price {
+font-family: Montserrat-light;
+font-size: 25px;
+padding-left: 5%;
+display: inline-block;
+position: absolute;
+padding-top: 18%;  
+}
+
+.nav3 {
+    list-style-type: none; 
+    text-align: center;
+    background-color: #292929;
+    margin : 0 !important;
+    
+}
+.navtop a{
+    font-family: Montserrat-Thin;
+    font-size: 30px;
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+.navtop li {
+    display:inline-block;
+    position: relative;  
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    }
+
+.navbtm a{
+  list-style-type: none; 
+    text-align: center;
+    background-color: #292929; 
+    font-family: Montserrat-Light;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbtm li {
+    display:inline-block;
+    position: relative;  
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: none;
+    }
+
+label {
+list-style-type: none; 
+    text-align: center;
+    background-color: #292929; 
+    font-family: Montserrat-Thin;
+    font-size: 30px;
+    text-decoration: none;
+    color: #c4c4c4;
+    display:inline-block;
+    position: relative;  
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+}
+select {
+font-family: Montserrat-Light;
+border-radius: 5px solid black;
+}
+
+
+section {
+ background-color: #333333;
+
+ height: 450px;
+ 
+}
+
+section{
+    
+font-family: Montserrat-Regular;
+color: #ffffff;
+text-align: center;
+font-size: 52px;
+padding-top: 135px;
+
+}
+
+section a 
+{
+ text-decoration: none;
+ font-size: 12px;   
+ color: #5e5e5e;
+ position: absolute;
+  bottom: -375px;
+ right: 750px;
+ font-family: Montserrat-Regular;
+}
+
+
+footer {
+ 
+  background-color: #333333;
+ text-align: center;
+  font-family: Montserrat-Regular;
+  color: #585858;
+padding-bottom: 5px;
+}
+
+footer p {
+text-align: center;
+display: inline;
+}
+
+footer a {
+text-decoration: underline;
+color: #585858;
+}
+
+#modal-box {
+        width: 602px;
+        height: 261px;
+        background-color: #f0eee9;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    #modal-box p {
+        font-family: Montserrat-Regular;
+        color: #bcb2a5;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    .signuptext {
+        font-size: 1.6em;
+        position: absolute;
+        margin-top: -230px;
+        margin-left: 100px;
+        width: 250px;
+    }
+    
+    .winnertext {
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 100px;
+        width: 270px;
+    }
+    
+    #xbutton {
+        position: absolute;
+        background-color: #4f4f4f;
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+        color: white;
+        margin-left: -15px;
+        margin-top: -15px;
+        text-decoration: none;
+        border-color: #4f4f4f;
+        border: 1px;
+    }
+    
+    #signup {
+        text-decoration: none;
+        color: #bcb2a5;
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 310px;
+        width: 280px;
+        height: 33px;
+        background-color: #bcb2a5;
+        color: white;
+        font-size: 1.6em;
+        text-align: center;
+        padding-top: 11px;
+        border-radius: 10px;
+    }
+    
+    #modal-box img {
+        margin-right: 100%;
+        display: flex;
+    }
