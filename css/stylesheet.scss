@@ -1,256 +1,287 @@
-@font-face
-  font-family: Montserrat-Regular
-  src: url(fonts/Montserrat-Regular.otf)
+$color_1: grey;
+$color_2: white;
+$color_3: #9c9c9c;
+$color_4: #acacac;
+$color_5: #c4c4c4;
+$color_6: #ffffff;
+$color_7: #5e5e5e;
+$color_8: #585858;
+$color_9: #bcb2a5;
+$font_family_1: Montserrat-Light;
+$font_family_2: Montserrat-Regular;
+$font_family_3: Montserrat-Thin;
+$font_family_4: Montserrat-light;
+$background_color_1: #3f3f3f;
+$background_color_2: #f1f1f1;
+$background_color_3: #292929;
+$background_color_4: #333333;
+$background_color_5: #f0eee9;
+$background_color_6: #4f4f4f;
+$background_color_7: #bcb2a5;
+$border_color_1: #4f4f4f;
 
-
-@font-face
-  font-family: Montserrat-Bold
-  src: url(fonts/Montserrat-Bold.otf)
-
-
-@font-face
-  font-family: Montserrat-Light
-  src: url(fonts/Montserrat-Light.otf)
-
-
-@font-face
-  font-family: Montserrat-UltraLight
-  src: url(fonts/Montserrat-UltraLight.otf)
-
-
-@font-face
-  font-family: Montserrat-Thin
-  src: url(fonts/Montserrat-Thin.otf)
-
-
-body
-  height: 100%
-
-.logo
-  position: absolute
-
-.nav1
-  list-style-type: none
-  text-align: center
-  a
-    font-family: Montserrat-Light
-    font-size: 23px
-    text-decoration: none
-    color: grey
-  li
-    display: inline-block
-    position: relative
-    padding-left: 25px
-    padding-right: 25px
-    padding-bottom: 25px
-    padding-top: 15px
-    a
-
-hr
-  margin: 0 28%
-  padding: 0
-  width: 45%
-  align-content: center
-
-.nav2
-  list-style-type: none
-  text-align: center
-  a
-    font-family: Montserrat-Regular
-    font-size: 14px
-    text-decoration: none
-    color: grey
-  li
-    display: inline-block
-    position: relative
-    padding: 11px
-
-.button
-  background-color: #3f3f3f
-  border-radius: 11px
-  color: white
-  padding: 10px 16px
-  text-align: center
-  text-decoration: none
-  display: inline-block
-  font-size: 14px
-  font-family: Montserrat-Regular
-
-main
-  background-color: #f1f1f1
-  height: 650px
-  width: 100%
-
-.billede
-  padding-left: 23%
-
-main
-  h1
-    font-family: Montserrat-Thin
-    font-size: 35px
-    padding-left: 5%
-    padding-right: 25%
-    display: inline-block
-    position: absolute
-    color: #9c9c9c
-  p
-    font-family: Montserrat-Thin
-    font-size: 25px
-    padding-right: 25%
-    text-align: left
-    padding-left: 5%
-    display: inline-block
-    position: absolute
-    padding-top: 5%
-    color: #acacac
-  .price
-    font-family: Montserrat-light
-    font-size: 25px
-    padding-left: 5%
-    display: inline-block
-    position: absolute
-    padding-top: 18%
-
-.nav3
-  list-style-type: none
-  text-align: center
-  background-color: #292929
-
-.navtop
-  a
-    font-family: Montserrat-Thin
-    font-size: 30px
-    color: #c4c4c4
-    text-decoration: none
-  li
-    display: inline-block
-    position: relative
-    padding-left: 25px
-    padding-right: 25px
-    padding-bottom: 15px
-    padding-top: 15px
-    text-decoration: none
-
-.navbtm
-  a
-    list-style-type: none
-    text-align: center
-    background-color: #292929
-    font-family: Montserrat-Light
-    font-size: 18px
-    text-decoration: none
-    color: #ffffff
-  li
-    display: inline-block
-    position: relative
-    padding-left: 25px
-    padding-right: 25px
-    padding-bottom: 15px
-    padding-top: 15px
-    text-decoration: none
-
-label
-  list-style-type: none
-  text-align: center
-  background-color: #292929
-  font-family: Montserrat-Thin
-  font-size: 30px
-  text-decoration: none
-  color: #c4c4c4
-  display: inline-block
-  position: relative
-  padding-left: 25px
-  padding-right: 25px
-  text-decoration: none
-
-select
-  font-family: Montserrat-Light
-  border-radius: 5px solid black
-
-section
-  background-color: #333333
-  height: 450px
-  font-family: Montserrat-Regular
-  color: #ffffff
-  text-align: center
-  font-size: 52px
-  padding-top: 135px
-  a
-    text-decoration: none
-    font-size: 12px
-    color: #5e5e5e
-    position: absolute
-    bottom: -375px
-    right: 750px
-    font-family: Montserrat-Regular
-
-footer
-  background-color: #333333
-  text-align: center
-  font-family: Montserrat-Regular
-  color: #585858
-  padding-bottom: 5px
-  p
-    text-align: center
-    display: inline
-  a
-    text-decoration: underline
-    color: #585858
-
-#modal-box
-  width: 602px
-  height: 261px
-  background-color: #f0eee9
-  position: fixed
-  bottom: 0
-  right: 0
-  p
-    font-family: Montserrat-Regular
-    color: #bcb2a5
-    display: inline-flex
-    flex-direction: column
-
-.signuptext
-  font-size: 1.6em
-  position: absolute
-  margin-top: -230px
-  margin-left: 100px
-  width: 250px
-
-.winnertext
-  position: absolute
-  margin-top: -150px
-  margin-left: 100px
-  width: 270px
-
-#xbutton
-  position: absolute
-  background-color: #4f4f4f
-  height: 30px
-  width: 30px
-  border-radius: 100%
-  color: white
-  margin-left: -15px
-  margin-top: -15px
-  text-decoration: none
-  border-color: #4f4f4f
-  border: 1px
-
-#signup
-  text-decoration: none
-  color: #bcb2a5
-  position: absolute
-  margin-top: -70px
-  margin-left: 310px
-  width: 280px
-  height: 33px
-  background-color: #bcb2a5
-  color: white
-  font-size: 1.6em
-  text-align: center
-  padding-top: 11px
-  border-radius: 10px
-
-#modal-box img
-  margin-right: 100%
-  display: flex
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(fonts/Montserrat-Regular.otf);
+}
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(fonts/Montserrat-Bold.otf);
+}
+@font-face {
+	font-family: Montserrat-Light;
+	src: url(fonts/Montserrat-Light.otf);
+}
+@font-face {
+	font-family: Montserrat-UltraLight;
+	src: url(fonts/Montserrat-UltraLight.otf);
+}
+@font-face {
+	font-family: Montserrat-Thin;
+	src: url(fonts/Montserrat-Thin.otf);
+}
+body {
+	height: 100%;
+}
+.logo {
+	position: absolute;
+}
+.nav1 {
+	list-style-type: none;
+	text-align: center;
+	a {
+		font-family: $font_family_1;
+		font-size: 23px;
+		text-decoration: none;
+		color: $color_1;
+	}
+	li {
+		display: inline-block;
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 25px;
+		padding-top: 15px;
+	}
+}
+hr {
+	margin: 0 28%;
+	padding: 0;
+	width: 45%;
+	align-content: center;
+}
+.nav2 {
+	list-style-type: none;
+	text-align: center;
+	a {
+		font-family: $font_family_2;
+		font-size: 14px;
+		text-decoration: none;
+		color: $color_1;
+	}
+	li {
+		display: inline-block;
+		position: relative;
+		padding: 11px;
+	}
+}
+.button {
+	background-color: $background_color_1;
+	border-radius: 11px;
+	color: $color_2;
+	padding: 10px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	font-family: $font_family_2;
+}
+main {
+	background-color: $background_color_2;
+	height: 650px;
+	width: 100%;
+	h1 {
+		font-family: $font_family_3;
+		font-size: 35px;
+		padding-left: 5%;
+		padding-right: 25%;
+		display: inline-block;
+		position: absolute;
+		color: $color_3;
+	}
+	p {
+		font-family: $font_family_3;
+		font-size: 25px;
+		padding-right: 25%;
+		text-align: left;
+		padding-left: 5%;
+		display: inline-block;
+		position: absolute;
+		padding-top: 5%;
+		color: $color_4;
+	}
+	.price {
+		font-family: $font_family_4;
+		font-size: 25px;
+		padding-left: 5%;
+		display: inline-block;
+		position: absolute;
+		padding-top: 18%;
+	}
+}
+.billede {
+	padding-left: 23%;
+}
+.nav3 {
+	list-style-type: none;
+	text-align: center;
+	background-color: $background_color_3;
+	margin: 0 !important;
+}
+.navtop {
+	a {
+		font-family: $font_family_3;
+		font-size: 30px;
+		color: $color_5;
+		text-decoration: none;
+	}
+	li {
+		display: inline-block;
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		text-decoration: none;
+	}
+}
+.navbtm {
+	a {
+		list-style-type: none;
+		text-align: center;
+		background-color: $background_color_3;
+		font-family: $font_family_1;
+		font-size: 18px;
+		text-decoration: none;
+		color: $color_6;
+	}
+	li {
+		display: inline-block;
+		position: relative;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		text-decoration: none;
+	}
+}
+label {
+	list-style-type: none;
+	text-align: center;
+	background-color: $background_color_3;
+	font-family: $font_family_3;
+	font-size: 30px;
+	text-decoration: none;
+	color: $color_5;
+	display: inline-block;
+	position: relative;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-decoration: none;
+}
+select {
+	font-family: $font_family_1;
+	border-radius: 5px solid black;
+}
+section {
+	background-color: $background_color_4;
+	height: 450px;
+	font-family: $font_family_2;
+	color: $color_6;
+	text-align: center;
+	font-size: 52px;
+	padding-top: 135px;
+	a {
+		text-decoration: none;
+		font-size: 12px;
+		color: $color_7;
+		position: absolute;
+		bottom: -375px;
+		right: 750px;
+		font-family: $font_family_2;
+	}
+}
+footer {
+	background-color: $background_color_4;
+	text-align: center;
+	font-family: $font_family_2;
+	color: $color_8;
+	padding-bottom: 5px;
+	p {
+		text-align: center;
+		display: inline;
+	}
+	a {
+		text-decoration: underline;
+		color: $color_8;
+	}
+}
+#modal-box {
+	width: 602px;
+	height: 261px;
+	background-color: $background_color_5;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	p {
+		font-family: $font_family_2;
+		color: $color_9;
+		display: inline-flex;
+		flex-direction: column;
+	}
+	img {
+		margin-right: 100%;
+		display: flex;
+	}
+}
+.signuptext {
+	font-size: 1.6em;
+	position: absolute;
+	margin-top: -230px;
+	margin-left: 100px;
+	width: 250px;
+}
+.winnertext {
+	position: absolute;
+	margin-top: -150px;
+	margin-left: 100px;
+	width: 270px;
+}
+#xbutton {
+	position: absolute;
+	background-color: $background_color_6;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	color: $color_2;
+	margin-left: -15px;
+	margin-top: -15px;
+	text-decoration: none;
+	border-color: $border_color_1;
+	border: 1px;
+}
+#signup {
+	text-decoration: none;
+	color: $color_9;
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 310px;
+	width: 280px;
+	height: 33px;
+	background-color: $background_color_7;
+	color: $color_2;
+	font-size: 1.6em;
+	text-align: center;
+	padding-top: 11px;
+	border-radius: 10px;
+}
